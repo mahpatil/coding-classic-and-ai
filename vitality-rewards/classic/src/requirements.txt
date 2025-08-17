@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+pydantic>=2.7.0,<3.0.0
+pydantic-settings>=2.7.0,<3.0.0
+

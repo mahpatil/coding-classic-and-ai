@@ -1,31 +1,26 @@
 <a id="readme-top"></a>
 
-[![Contributors][contributors-shield]][https://github.com/mahpatil/coding-classic-and-ai/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/mahpatil/coding-classic-and-ai/forks]
-[![Issues][issues-shield]][https://github.com/mahpatil/coding-classic-and-ai/issues]
-[![project_license][license-shield]][https://github.com/mahpatil/coding-classic-and-ai/blob/main/LICENSE]
-[![LinkedIn][linkedin-shield]][linkedin.com/in/inspiredbytech/]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!--a href="https://github.com/mahpatil/coding-classic-and-ai">
+  <a href="https://github.com/github_username/repo_name">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a-->
+  </a>
 
-<h3 align="center">Coding Classic and AI</h3>
+<h3 align="center">Vitality rewards service - classic</h3>
 
   <p align="center">
-    Compilation of some coding exercises the classic and the AI way.
+    This is the classic (hard-way) implementation of the Vitality rewards service. 
     <br />
-    <a href="https://github.com/mahpatil/coding-classic-and-ai"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/mahpatil/coding-classic-and-ai/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/github_username/repo_name">View Demo</a>
     &middot;
-    <a href="https://github.com/mahpatil/coding-classic-and-ai/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    &middot;
+    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -43,7 +38,12 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
     </li>
+    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -57,16 +57,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-With the advent of AI and everincreasing popularity, i decided to compare how it is to build software using good old fashioned way versus with AI-assistance and vibe coding. This project is a compilation of some coding exercises. Every example is expected to have a classic and an ai-assisted version. 
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-The project will include few samples of use cases I come across and how they could be implemented with and without AI assistance. Each project will provide a summary of this experience.  Every example will have two implementation folders:
-1. <b>Classic</b> or the hard way: This implementation will use a standard VSCode or similar IDE without any copilot or assistence. The implementation will follow these principles:
-- Standard IDE without using any AI copilot and assistance
-- Code should be written from scratch with no AI assistance, autocomplete is still allowed.
-- For research and search use standard search engine, with no AI native browsers or 
-- Read documentations available online, do not use AI to summarize or extract necessary details.
-
-2. <b>Ai-assisted</b>: This implementation will rely on AI native IDE's or copilots. Each example may use different tools and the readme should show the tools used. 
+Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +67,7 @@ The project will include few samples of use cases I come across and how they cou
 
 ### Built With
 
-* [[Fast API](https://fastapi.tiangolo.com/)]
+* [![FastAPI][FastAPI]][[Next-url](https://fastapi.tiangolo.com/)]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,10 +78,37 @@ The project will include few samples of use cases I come across and how they cou
 
 Pick up any of the sample projects here and follow the Getting started instructions there.
 
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+Please refer individual projects for details.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 <!-- ROADMAP -->
 ## Roadmap
 
-- [*] Vitality rewards
+- [ ] Vitality rewards
 <!---- [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
@@ -118,7 +138,7 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/mahpatil/coding-classic-and-ai/graphs/contributors">
+<a href="https://github.com/github_username/repo_name/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
 </a>
 
@@ -136,9 +156,9 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Mahesh Patil- [@inspiredbytech](https://www.linkedin.com/in/inspiredbytech/)
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/mahpatil/coding-classic-and-ai](https://github.com/mahpatil/coding-classic-and-ai)
+Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,9 +167,8 @@ Project Link: [https://github.com/mahpatil/coding-classic-and-ai](https://github
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [FastAPI Best practices](https://github.com/zhanymkanov/fastapi-best-practices)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
