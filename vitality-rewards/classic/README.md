@@ -16,8 +16,6 @@
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    &middot;
     <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
     <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -57,9 +55,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+This is the classic implementation of the vitality rewards calculator. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +63,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 ### Built With
 
-* [![FastAPI][FastAPI]][[Next-url](https://fastapi.tiangolo.com/)]
+* [[Fast API](https://fastapi.tiangolo.com/)]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,11 +76,14 @@ Pick up any of the sample projects here and follow the Getting started instructi
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Setup your virtual environment, activiate it and install requirements & fastapi
+```sh
+  python -m venv .venv
+  source .venv/bin/activate
+  pip install -r requirements.txt
+  pip install fastapi
+```
+
 
 ### Installation
 
@@ -97,9 +96,16 @@ Please refer individual projects for details.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Running the api
 
+```sh
+  cd src
+  source .venv/bin/activate
+  fastapi run app/main.py 2> err.log
+```
 _For more examples, please refer to the [Documentation](https://example.com)_
+
+Docs: http://localhost:8000/docs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
