@@ -82,6 +82,7 @@ Setup your virtual environment, activiate it and install requirements & fastapi
   source .venv/bin/activate
   pip install -r requirements.txt
   pip install fastapi
+  alembic upgrade head
 ```
 
 
@@ -102,6 +103,15 @@ Running the api
   cd src
   source .venv/bin/activate
   fastapi run app/main.py 2> err.log
+```
+
+If you have problems with data use downgrade/upgrade
+```
+  alembic downgrade -1
+  alembic upgrade head
+  
+## to create more data
+  alembic revision -m "insert <>"
 ```
 _For more examples, please refer to the [Documentation](https://example.com)_
 

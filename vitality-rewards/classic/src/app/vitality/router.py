@@ -13,21 +13,24 @@ def rewards_calculate():
     # For now, we return a success message
     return {"message": "Rewards calculated successfully"}
 
-@router.get("/{user_id}",
+
+@router.get("/health", status_code=status.HTTP_200_OK)
+def get_health():
+    return {"Health": "OK"}
+
+@router.get("/for-user/{user_id}",
             response_model=list[RewardPoint],
             summary="Retrieves reward points for a user.",)
-def get_activities(request: Request) -> List[RewardPoint]:
-    case = get_reward_points(user_id=request.path_params["user_id"])
+def get_activities(user_id) -> List[RewardPoint]:
+    case = get_reward_points(user_id=user_id)
     if not case:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
-            detail=[{"msg": "The requested case does not exist."}],
+            detail=[{"msg": "The requested userid does not exist."}],
         )
     return case
 
+# @router.post("/{user_id}/")
 
 
-@router.get("/hello/")
-def get_hello():
-    return {"Hello": "World"}
 
