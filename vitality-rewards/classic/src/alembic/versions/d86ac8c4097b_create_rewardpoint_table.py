@@ -34,25 +34,25 @@ def upgrade() -> None:
                 {
                     "user_id": 1,
                     "name": "John Smith",
-                    "date": date(2025, 8, 24),
+                    "date": date.today(-4),
                     "points": 3
                 },
                 {
                     "user_id": 1,
                     "name": "John Smith",
-                    "date": date(2025, 8, 29),
+                    "date": date.today(-3),
                     "points": 3
                 },
                 {
                     "user_id": 2,
                     "name": "Ed Williams",
-                    "date": date(2025, 8, 30),
+                    "date": date.today(),
                     "points": 5
                 },
                 {
                     "user_id": 3,
                     "name": "Wendy Jones",
-                    "date": date(2025, 8, 30),
+                    "date": date.today(),
                     "points": 5
                 },
             ],

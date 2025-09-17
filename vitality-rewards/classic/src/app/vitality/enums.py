@@ -13,4 +13,5 @@ class ActivityType():
 
     @classmethod
     def choices(cls):
-        return [cls.RUNNING, cls.WALKING, cls.CYCLING, cls.SWIMMING, cls.YOGA, cls.GYM, cls.DANCE, cls.HIIT, cls.PILATES, cls.OTHER]
+        return [cls.RUNNING, cls.WALKING, cls.CYCLING, cls.CARDIO, cls.STRENGTH,
+                cls.SWIMMING, cls.YOGA, cls.GYM, cls.DANCE, cls.HIIT, cls.PILATES, cls.OTHER]

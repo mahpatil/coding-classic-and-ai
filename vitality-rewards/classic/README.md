@@ -188,3 +188,14 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LEARNINGS -->
+## Learnings
+### The good
+1. Better retention of concepts
+2. Better understanding of capabilities to prompt better
+3. Higher failure and learning rate
+4. 
+
+### The bad
+1. Requires patience vs instant fulfilment as it takes much longer to see outcomes
+2. 
